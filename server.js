@@ -8,7 +8,7 @@ import userRoutes from "./routes/User.routes.js";
 
 dotenv.config({ path: "./configs/.env" });
 const app = express();
-let PORT = 8080;
+let PORT = process.env.PORT;
 
 /**  LES MIDDLEWARES **/
 
